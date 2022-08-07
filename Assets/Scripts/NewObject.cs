@@ -7,7 +7,7 @@ namespace Assets.Scripts
     {
         [SerializeField] public GameObject[] objectForSpawn;
         public List<SpawnObject> spawnObjectList;
-        private int ammountObjectsYouWant = 4;
+        private int ammountObjectsYouWant = 3;
         
         
         private void Start()
@@ -29,7 +29,7 @@ namespace Assets.Scripts
 
             void SpawnGameObject()
             {
-                int prefeb_num = Random.Range(0, 4);
+                
                 List<SpawnObject> spawnedObjects = new List<SpawnObject>();
                 List<SpawnObject> notSpawnedObjects = new List<SpawnObject>();
 
@@ -40,7 +40,7 @@ namespace Assets.Scripts
                     if (item.objectPosition != spawnPosition)
                     {
  
-                       GameObject newball = Instantiate(objectForSpawn[prefeb_num], spawnPosition, transform.rotation * Quaternion.Euler(0f, 0f, 90f)) as GameObject; 
+                       GameObject newball = Instantiate(objectForSpawn[Random.Range(0,5)], spawnPosition, transform.rotation * Quaternion.Euler(0f, 0f, 90f)) as GameObject; 
                         spawnedObjects.Add(item);
                     }
                     else
@@ -54,10 +54,18 @@ namespace Assets.Scripts
         }
         void Update()
         {
-            if (Input.GetMouseButtonDown(0))
+            if(Time.timeScale == 1)
             {
-                CreateObjects();
+                if (Input.GetMouseButtonDown(0))
+                {
+                    CreateObjects();
+                }
             }
+            else if (Time.timeScale == 0)
+            {
+
+            }
+            
         }
 
     }

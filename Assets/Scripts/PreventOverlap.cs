@@ -11,6 +11,7 @@ public class PreventOverlap : MonoBehaviour
 
         void OnTriggerEnter(Collider col)
         {
+            GlobScore.currentScore += 100;
             if (col.gameObject.tag == "Ball")
             {
                 Destroy(col.gameObject);

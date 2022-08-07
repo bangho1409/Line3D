@@ -58,9 +58,9 @@ public class MenuController : MonoBehaviour
 
     public void addballl()
     {
-        float y = Random.Range(276, 300);
-        float x = Random.Range(-110, -140);
-        float z = Random.Range(0, -2);
+        float y = Random.Range(276, 350);
+        float x = Random.Range (-110, -130);
+        float z = Random.Range(20, 35);
         Vector3 Pos = new Vector3(x, y, z);
 
         Instantiate(balls, Pos, transform.rotation * Quaternion.Euler(90f, 0f, -90f));

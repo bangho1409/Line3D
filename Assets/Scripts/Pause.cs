@@ -8,6 +8,8 @@ public class Pause : MonoBehaviour
 
     public bool gamePaused = false;
     public GameObject pauseMenu;
+    public GameObject instructor;
+    public GameObject spawn;
 
 
     void Update()
@@ -20,6 +22,8 @@ public class Pause : MonoBehaviour
                 gamePaused = true;
                 Cursor.visible = true;
                 pauseMenu.SetActive(true);
+                
+
             }
             else
             {
@@ -27,14 +31,27 @@ public class Pause : MonoBehaviour
                 Cursor.visible = false;
                 gamePaused = false;
                 Time.timeScale = 1;
+                
             }
         }
+
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            if(instructor.activeSelf)
+            {
+                instructor.SetActive(false);
+            }
+            else
+            {
+                instructor.SetActive(true);
+            }
+        }
+
     }
 
     public void ResumeGame()
     {
-        pauseMenu.SetActive(false);
-        Cursor.visible = false;
+        pauseMenu.SetActive(false);   
         gamePaused = false;
         Time.timeScale = 1;
     }
