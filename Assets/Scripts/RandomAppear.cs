@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class RandomAppear : MonoBehaviour
 {
     public GameObject[] img;
-    // Start is called before the first frame update
+    
     void Start()
     {
         int prefab_num = Random.Range(0, 5);
@@ -35,7 +35,7 @@ public class RandomAppear : MonoBehaviour
     }
 
 
-    // Update is called once per frame
+   
     void Update()
     {
         if (Time.timeScale == 1)

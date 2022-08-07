@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PreventOverlap3 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    
    
         void OnTriggerEnter(Collider col)
         {

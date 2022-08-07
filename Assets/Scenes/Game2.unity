@@ -13775,7 +13775,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1251456193}
-  - component: {fileID: 1251456192}
+  - component: {fileID: 1251456194}
   m_Layer: 0
   m_Name: spawn
   m_TagString: Untagged
@@ -13783,24 +13783,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1251456192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1251456191}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fcfa46cf42ebcd42842d194b12b1239, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectForSpawn:
-  - {fileID: 2951125810563129884, guid: 4d29689158e8eb644845ea0cb961e373, type: 3}
-  - {fileID: 3388600449074307514, guid: 829323f2efdb8bd41976053249923e35, type: 3}
-  - {fileID: 8935111645647618308, guid: ad4f19e2ca1aa8140bf76f744d1e3de0, type: 3}
-  - {fileID: 1196436083956776432, guid: 6b032552e7b411a49a5ace31df534184, type: 3}
-  - {fileID: 1196436083956776432, guid: ea6fdd0636d84ca4f951812c2da768f5, type: 3}
 --- !u!4 &1251456193
 Transform:
   m_ObjectHideFlags: 0
@@ -13815,6 +13797,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1251456194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251456191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce82df250ed0a045b449d67589c575a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefeb:
+  - {fileID: 2951125810563129884, guid: 4d29689158e8eb644845ea0cb961e373, type: 3}
+  - {fileID: 3388600449074307514, guid: 829323f2efdb8bd41976053249923e35, type: 3}
+  - {fileID: 8935111645647618308, guid: ad4f19e2ca1aa8140bf76f744d1e3de0, type: 3}
+  - {fileID: 1196436083956776432, guid: 6b032552e7b411a49a5ace31df534184, type: 3}
+  - {fileID: 1196436083956776432, guid: ea6fdd0636d84ca4f951812c2da768f5, type: 3}
+  random: 1
 --- !u!1 &1274193929
 GameObject:
   m_ObjectHideFlags: 0

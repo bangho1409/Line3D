@@ -13,7 +13,7 @@ public class MenuController : MonoBehaviour
     public GameObject balls;
     public GameObject optional;
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         if(musicon.activeSelf)
@@ -22,7 +22,7 @@ public class MenuController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
         if (Input.GetButtonDown("Cancel"))

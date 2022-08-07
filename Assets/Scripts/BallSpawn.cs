@@ -57,10 +57,18 @@ public class BallSpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Time.timeScale == 1)
         {
-            StartCoroutine(SpawnballRandom2());
+            if (Input.GetMouseButtonDown(0))
+            {
+                StartCoroutine(SpawnballRandom2());
+            }
         }
+        else if (Time.timeScale == 0)
+        {
+
+        }
+       
         
     }
 }

@@ -15,11 +15,9 @@ public class Timer : MonoBehaviour
     {
         UpdateTimerUI();
     }
-    //call this on update
+    
     public void UpdateTimerUI()
     {
-        
-        //set timer UI
         secondsCount += Time.deltaTime;
         
         timerText.GetComponent<Text>().text = hourCount + "h" + minuteCount + "m" + (int)secondsCount + "s";
