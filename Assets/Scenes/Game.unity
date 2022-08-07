@@ -1032,6 +1032,7 @@ MonoBehaviour:
   gamePaused: 0
   pauseMenu: {fileID: 960642864}
   instructor: {fileID: 969533276}
+  spawn: {fileID: 0}
 --- !u!4 &115345273
 Transform:
   m_ObjectHideFlags: 0
@@ -18625,8 +18626,8 @@ MonoBehaviour:
   img:
   - {fileID: 709062273}
   - {fileID: 660037859}
-  - {fileID: 1509730344}
   - {fileID: 156663038}
+  - {fileID: 1509730344}
   - {fileID: 1524427679}
 --- !u!4 &2111936615
 Transform:

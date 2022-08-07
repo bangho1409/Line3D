@@ -11,6 +11,7 @@ public class MenuController : MonoBehaviour
     public GameObject musicoff;
     public AudioSource menumusic;
     public GameObject balls;
+    public GameObject optional;
 
     // Start is called before the first frame update
     void Start()
@@ -24,13 +25,17 @@ public class MenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButtonDown("Cancel"))
+        {
+            optional.SetActive(false);
+        }
     }
 
     public void PlayGame()
     {
-        buttonPress.Play(); 
-        SceneManager.LoadScene(1);
+        buttonPress.Play();
+        optional.SetActive(true);
+
     }
 
     public void QuitGame()
@@ -38,6 +43,17 @@ public class MenuController : MonoBehaviour
         buttonPress.Play();
         Application.Quit();
     }
+
+    public void option1()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void option2()
+    {
+        SceneManager.LoadScene(3);
+    }
+
 
 
     public void musicontrol()
