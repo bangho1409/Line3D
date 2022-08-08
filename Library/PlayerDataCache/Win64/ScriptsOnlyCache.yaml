@@ -17,6 +17,22 @@ ScriptsOnlyBuild:
     - Splash2
     - TargetMove
     - Timer
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
+    - UnityEngine.Rendering.PostProcessing.AutoExposure
+    - UnityEngine.Rendering.PostProcessing.Bloom
+    - UnityEngine.Rendering.PostProcessing.ChromaticAberration
+    - UnityEngine.Rendering.PostProcessing.ColorGrading
+    - UnityEngine.Rendering.PostProcessing.DepthOfField
+    - UnityEngine.Rendering.PostProcessing.Grain
+    - UnityEngine.Rendering.PostProcessing.LensDistortion
+    - UnityEngine.Rendering.PostProcessing.MotionBlur
+    - UnityEngine.Rendering.PostProcessing.PostProcessLayer
+    - UnityEngine.Rendering.PostProcessing.PostProcessProfile
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    - UnityEngine.Rendering.PostProcessing.PostProcessVolume
+    - UnityEngine.Rendering.PostProcessing.ScreenSpaceReflections
+    - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -64,6 +80,8 @@ ScriptsOnlyBuild:
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -125,6 +143,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4080}
     - Class: 114
       Script: {instanceID: 4432}
+    - Class: 114
+      Script: {instanceID: 20268}
+    - Class: 114
+      Script: {instanceID: 20386}
+    - Class: 114
+      Script: {instanceID: 20398}
+    - Class: 114
+      Script: {instanceID: 20412}
+    - Class: 114
+      Script: {instanceID: 20424}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -173,6 +201,8 @@ ScriptsOnlyBuild:
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
+      Script: {instanceID: 0}
+    - Class: 72
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
@@ -234,6 +264,16 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4080}
     - Class: 114
       Script: {instanceID: 4432}
+    - Class: 114
+      Script: {instanceID: 20268}
+    - Class: 114
+      Script: {instanceID: 20386}
+    - Class: 114
+      Script: {instanceID: 20398}
+    - Class: 114
+      Script: {instanceID: 20412}
+    - Class: 114
+      Script: {instanceID: 20424}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -367,6 +407,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -405,6 +447,20 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2894}
     - Class: 114
       Script: {instanceID: 3418}
+    - Class: 114
+      Script: {instanceID: 20268}
+    - Class: 114
+      Script: {instanceID: 20378}
+    - Class: 114
+      Script: {instanceID: 20386}
+    - Class: 114
+      Script: {instanceID: 20398}
+    - Class: 114
+      Script: {instanceID: 20412}
+    - Class: 114
+      Script: {instanceID: 20424}
+    - Class: 114
+      Script: {instanceID: 20428}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -930,180 +986,6 @@ ScriptsOnlyBuild:
     className: Splash
   - hash:
       serializedVersion: 2
-      Hash: 182bb5fdce4da752a95915047b435094
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: FsmTemplate
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerAnimatorIK
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerAnimatorMove
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerApplicationEvents
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerCollisionEnter
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerCollisionEnter2D
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerCollisionExit
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerCollisionExit2D
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerCollisionStay
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerCollisionStay2D
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerControllerColliderHit
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerControls
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerFixedUpdate
-  - hash:
-      serializedVersion: 2
-      Hash: a17f3cdaffefa864a0d800602bcf922d
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerFSM
-  - hash:
-      serializedVersion: 2
-      Hash: 370593f134e2685b00d73cbf4017d0fe
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerGlobals
-  - hash:
-      serializedVersion: 2
-      Hash: 4002df09187c2b317d58e82d9e4795b2
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerJointBreak
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerJointBreak2D
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerLateUpdate
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerMouseEvents
-  - hash:
-      serializedVersion: 2
-      Hash: 65fb86d2f74f034d658ef1bd1f20a8b1
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerOnGUI
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerParticleCollision
-  - hash:
-      serializedVersion: 2
-      Hash: 8e6a7f714a9880f023bdef89ee6f27e6
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerPrefs
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerTriggerEnter
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerTriggerEnter2D
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerTriggerExit
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerTriggerExit2D
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerTriggerStay
-  - hash:
-      serializedVersion: 2
-      Hash: 9b8a30b0d2b39397e408f051bc054940
-    assemblyName: PlayMaker.dll
-    namespaceName: 
-    className: PlayMakerTriggerStay2D
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1132,6 +1014,108 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 50c443b12ccc0b475183318b5088bcc5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessDebug
+  - hash:
+      serializedVersion: 2
+      Hash: a53651ee3996fbba20dfe0fce02f0b23
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AutoExposure
+  - hash:
+      serializedVersion: 2
+      Hash: d5630f96bd5a6a6eed7e1754c3fb8703
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 63d7b9b64a11859f416d72ba9a3c3fec
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ScreenSpaceReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ColorGrading
+  - hash:
+      serializedVersion: 2
+      Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessEffectSettings
+  - hash:
+      serializedVersion: 2
+      Hash: af93f9c42e90877a9ba31e37adfd900c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: MotionBlur
+  - hash:
+      serializedVersion: 2
+      Hash: e82c0521cdfe8cb6a168ef7208a98d4a
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Vignette
+  - hash:
+      serializedVersion: 2
+      Hash: b13de7a0a457cb8e026d4237dc1b5797
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: LensDistortion
+  - hash:
+      serializedVersion: 2
+      Hash: 71f7f12b8d0f4fd73590db8bcb6d453c
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: f542c1afca5bb4022f91fdda19b8d622
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: DepthOfField
+  - hash:
+      serializedVersion: 2
+      Hash: d6fc8d3165070298511ec776ea575626
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessResources
+  - hash:
+      serializedVersion: 2
+      Hash: d0987ce3e9092dbe0fa30d73f333fffa
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: Grain
+  - hash:
+      serializedVersion: 2
+      Hash: a1f19ad47d3094e235f21b74dfc423a8
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessLayer
+  - hash:
+      serializedVersion: 2
+      Hash: 61b9d9b6f4b6a222dfea8b131b3d3227
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 38bcb4d3f9a1812fd650f92e87a4cf64
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: PostProcessProfile
+  - hash:
+      serializedVersion: 2
+      Hash: ac6acd886c54c48c599ab5fed5781ea7
+    assemblyName: Unity.Postprocessing.Runtime.dll
+    namespaceName: UnityEngine.Rendering.PostProcessing
+    className: AmbientOcclusion
   platform: 19
   scenePathNames:
   - Assets/Scenes/menu.unity
